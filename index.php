@@ -3686,7 +3686,7 @@ if ($datain == "offzarinpal") {
     update("PaySetting", "ValuePay", "offzarinpal", "NamePay", "statuszarinpal");
     Editmessagetext($from_id, $message_id, $textbotlang['Admin']['Status']['zarrinpalStatusOff'], null);
 }
-if ($text == "🔵 درگاه آقای پرداخت") {
+if ($text == "درگاه") {
     sendmessage($from_id, $textbotlang['users']['selectoption'], $aqayepardakht, 'HTML');
 }
 if ($text == "تنظیم مرچنت آقای پرداخت") {
